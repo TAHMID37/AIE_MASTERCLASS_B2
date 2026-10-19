@@ -1,0 +1,40 @@
+{
+  "model_used": "openai/gpt-oss-20b",
+  "session_cost_usd": 0.00071247,
+  "calls": 8,
+  "comparison": [
+    {
+      "model": "openai/gpt-oss-20b",
+      "in_tokens": 118,
+      "out_tokens": 80,
+      "finish_reason": "stop",
+      "content_chars": 177,
+      "estimated": 0.00012368,
+      "actual": 3.285e-05,
+      "seconds": 0.47,
+      "output": "{\"intent\":\"delivery_issue\",\"urgency\":5,\"reply\":\"I\u2019m sorry your order hasn\u2019t arrived\u2014could you please provide your order number so we can investigate and resolve this promptly?\"}"
+    },
+    {
+      "model": "openai/gpt-oss-120b",
+      "in_tokens": 118,
+      "out_tokens": 94,
+      "finish_reason": "stop",
+      "content_chars": 174,
+      "estimated": 0.00024735,
+      "actual": 7.41e-05,
+      "seconds": 0.66,
+      "output": "{\n  \"intent\": \"delivery\",\n  \"urgency\": 5,\n  \"reply\": \"We're sorry to hear your order hasn't arrived; we'll investigate immediately and get back to you as soon as possible.\"\n}"
+    },
+    {
+      "model": "qwen/qwen3.8-27b",
+      "in_tokens": 59,
+      "out_tokens": 46,
+      "finish_reason": "stop",
+      "content_chars": 176,
+      "estimated": 0.0016392,
+      "actual": 0.0002312,
+      "seconds": 0.23,
+      "output": "{\n  \"intent\": \"complaint\",\n  \"urgency\": 4,\n  \"reply\": \"We apologize for the inconvenience and are immediately investigating your missing order to provide a swift resolution.\"\n}"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# AI Engineering MasterClass - Class 1
+groq>=1.7
+python-dotenv>=1.0
+requests>=2.32
+ipykernel>=6.29
