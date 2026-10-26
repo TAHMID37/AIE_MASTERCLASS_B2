@@ -1,0 +1,8 @@
+{"model": "openai/gpt-oss-20b", "in_tokens": 103, "out_tokens": 130, "finish_reason": "stop", "day": "2026-11-01"}
+{"model": "openai/gpt-oss-20b", "in_tokens": 84, "out_tokens": 300, "finish_reason": "length", "day": "2026-11-01"}
+{"model": "openai/gpt-oss-120b", "in_tokens": 118, "out_tokens": 105, "finish_reason": "stop", "day": "2026-11-01"}
+
+{"model": "qwen/qwen3.8-27b", "in_tokens": 59, "out_tokens": 55, "finish_reason": "stop", "day": "2026-11-02"}
+{"model": "openai/gpt-oss-20b", "in_tokens": 84, "out_tokens": 30
+{"model": "openai/gpt-oss-20b", "in_tokens": 84, "out_tokens": 300, "finish_reason": "length", "day": "2026-11-02"}
+{"model": "openai/gpt-oss-120b", "in_tokens": 2000, "out_tokens": 500, "finish_reason": "stop", "day": "2026-11-02"}
